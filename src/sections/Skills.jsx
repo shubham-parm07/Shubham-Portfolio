@@ -83,7 +83,7 @@ function Skills() {
 
       <div className="absolute bottom-10 right-10 w-[320px] h-[320px] bg-blue-700/20 blur-[120px] rounded-full"></div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-10 w-full scale-[0.92]">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-10 w-full scale-100 md:scale-[0.92]">
 
         {/* Heading */}
         <motion.div
@@ -94,8 +94,8 @@ function Skills() {
           className="text-center mb-7"
         >
 
-          <h2 className="text-6xl md:text-7xl font-bold bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent leading-tight">
-            Skills & Technologies
+          <h2 className="text-5xl sm:text-6xl md:text-7xl font-bold bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent leading-tight px-2">
+           Skills & Technologies
           </h2>
 
           <div className="w-28 h-1 bg-gradient-to-r from-purple-500 to-blue-500 mx-auto mt-5 rounded-full"></div>

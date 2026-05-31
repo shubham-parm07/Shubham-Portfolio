@@ -46,7 +46,7 @@ function Contact() {
               Contact Information
             </h3>
 
-            <div className="space-y-4" overflow-hidden>
+            <div className="space-y-4 overflow-hidden">
 
               {/* Email */}
               <div className="group flex items-center gap-4 bg-gradient-to-br from-fuchsia-900/20 to-black border border-fuchsia-500/20 rounded-3xl p-4 backdrop-blur-md hover:scale-[1.02] hover:border-fuchsia-500/50 transition-all duration-300 shadow-lg shadow-fuchsia-500/10">
