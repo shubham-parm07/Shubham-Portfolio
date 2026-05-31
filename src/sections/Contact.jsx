@@ -46,7 +46,7 @@ function Contact() {
               Contact Information
             </h3>
 
-            <div className="space-y-4">
+            <div className="space-y-4" overflow-hidden>
 
               {/* Email */}
               <div className="group flex items-center gap-4 bg-gradient-to-br from-fuchsia-900/20 to-black border border-fuchsia-500/20 rounded-3xl p-4 backdrop-blur-md hover:scale-[1.02] hover:border-fuchsia-500/50 transition-all duration-300 shadow-lg shadow-fuchsia-500/10">
@@ -57,7 +57,7 @@ function Contact() {
 
                 <div>
                   <p className="text-gray-400 text-base">Email</p>
-                  <h4 className="text-xl font-semibold group-hover:text-fuchsia-400 transition">
+                  <h4 className="text-xl font-semibold group-hover:text-fuchsia-400 transition break-all">
                     shubhamparm674@gmail.com
                   </h4>
                 </div>
@@ -89,7 +89,7 @@ function Contact() {
 
                 <div>
                   <p className="text-gray-400 text-base">LinkedIn</p>
-                  <h4 className="text-xl font-semibold group-hover:text-emerald-400 transition">
+                  <h4 className="text-xl font-semibold group-hover:text-emerald-400 transition break-all">
                     linkedin.com/in/Shubham-parmar-575102300
                   </h4>
                 </div>
@@ -105,7 +105,7 @@ function Contact() {
 
                 <div>
                   <p className="text-gray-400 text-base">Github</p>
-                  <h4 className="text-xl font-semibold group-hover:text-orange-400 transition">
+                  <h4 className="text-xl font-semibold group-hover:text-orange-400 transition break-all">
                     Github.com/shubham-parm07
                   </h4>
                 </div>
@@ -116,7 +116,7 @@ function Contact() {
           </div>
 
           {/* Right Side */}
-          <div className="space-y-4">
+          <div className="space-y-4 overflow-hidden">
 
             <form
               action="https://formsubmit.co/shubhamparm674@gmail.com"
