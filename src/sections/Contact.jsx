@@ -1,4 +1,5 @@
 import React from "react";
+import emailjs from "@emailjs/browser";
 
 import {
   Mail,
@@ -9,6 +10,25 @@ import {
 } from "lucide-react";
 
 function Contact() {
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_z2ckorh",
+        "template_0m8h4r9",
+        e.target,
+        "NEwNJpavfAI7uivhS"
+      )
+      .then(() => {
+        alert("Thank you! Your message has been sent successfully.");
+        e.target.reset();
+      })
+      .catch((error) => {
+        console.error(error);
+        alert("Something went wrong. Please try again.");
+      });
+  };
   return (
     <section
       id="contact"
@@ -119,22 +139,9 @@ function Contact() {
           <div className="space-y-4 overflow-hidden">
 
             <form
-              action="https://formsubmit.co/shubhamparm674@gmail.com"
-              method="POST"
+              onSubmit={sendEmail}
               className="space-y-4"
             >
-
-              <input type="hidden" name="_captcha" value="false" />
-              <input
-                type="hidden"
-                name="_subject"
-                value="New Portfolio Contact Message"
-              />
-              <input
-                type="hidden"
-                name="_template"
-                value="table"
-              />
 
               {/* Name */}
               <div>
@@ -189,7 +196,6 @@ function Contact() {
                 <Send size={22} />
                 Send Message
               </button>
-
             </form>
 
           </div>
@@ -206,3 +212,4 @@ function Contact() {
 }
 
 export default Contact;
+// test
