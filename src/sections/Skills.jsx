@@ -56,7 +56,7 @@ function Skills() {
     },
 
     {
-      title: "Tools & Technologies",
+      title: "Tools & Technologies", 
       icon: <FaTools />,
       iconBg: "bg-orange-600/20",
       iconColor: "text-orange-400",
@@ -83,7 +83,7 @@ function Skills() {
 
       <div className="absolute bottom-10 right-10 w-[320px] h-[320px] bg-blue-700/20 blur-[120px] rounded-full"></div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-10 w-full scale-100 md:scale-[0.92]">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-10 w-full scale-100 md:scale-[0.92]">   
 
         {/* Heading */}
         <motion.div

@@ -17,7 +17,7 @@ function Projects() {
       glow: "from-pink-500/10 to-purple-500/10",
       description:
         "A complete hospital management system for handling patients, appointments, doctors, and records with secure authentication and modern dashboard UI.",
-      tech: ["React", "Node.js", "MongoDB"],
+      tech: ["React.js", "Node.js", "MongoDB"],
     },
 
     {
@@ -41,7 +41,7 @@ function Projects() {
       glow: "from-green-500/10 to-emerald-500/10",
       description:
         "AI-powered fashion recommendation system that suggests outfits based on user preferences and occasions using intelligent machine learning models.",
-      tech: ["Python", "TensorFlow", "React"],
+      tech: ["Python", "TensorFlow", "React.js"],
     },
   ];
 
